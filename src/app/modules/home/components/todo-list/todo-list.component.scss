@@ -29,6 +29,7 @@ section {
                     color: var(--primary-text-color);
                     &.checked {
                         text-decoration: line-through;
+                        color: red;
                     }
                 }
             }

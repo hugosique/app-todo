@@ -17,8 +17,11 @@ export class TodoInputAddItemsComponent implements OnInit {
   }
 
   public submitItemTasklist() {
-    this.emitItemTaskList.emit(this.addItemTaskList);
-    this.addItemTaskList = "";
+    this.addItemTaskList = this.addItemTaskList.trim();
+    if(this.addItemTaskList) {
+      this.emitItemTaskList.emit(this.addItemTaskList);
+      this.addItemTaskList = "";
+    };
   }
 
 }
