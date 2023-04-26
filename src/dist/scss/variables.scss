@@ -1,0 +1,16 @@
+
+:root {
+    --primary-color: #3d5a80;
+    --primary-darken-color: darken($color: #3d5a80, $amount: 2);
+
+    --secondary-color: #98c1d9;
+    --secondary-darken-color: darken($color: #98c1d9, $amount: 2);
+
+    --tertiary-color: #E0FBFC;
+    --tertiary-darken-color: darken($color: #E0FBFC, $amount: 2);
+
+    --primary-text-color: #293241;
+    --secondary-text-color: #3d5a80;
+
+    --danger-color: #EE6C4D;
+}

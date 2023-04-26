@@ -1,0 +1,20 @@
+:host {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+
+    input {
+        width: 80%;
+        border: none;
+        background: var(--secondary-color);
+        font-size: 16px;
+        color: var(--primary-text-color);
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+
+        &::placeholder {
+            color: var(--primary-text-color);
+        }
+    }
+}
